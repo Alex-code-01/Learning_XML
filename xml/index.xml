@@ -3,8 +3,8 @@
 
 <!DOCTYPE contenido SYSTEM "learningXML.dtd">
 <contenido>
-    <tema>Lenguajes de marcas</tema>
-        <subtema>"¿Qué son los lenguajes de marcas?"</subtema>
+    <tema titulo='Lenguajes de marcas' capitulo="1">
+        <subtema titulo="¿Qué son los lenguajes de marcas?">
             <texto>
                 Los lenguajes de marcas o Markup Language son maneras de codificar documentos que incorporan etiquetas, marcas o anotaciones con información adicional sobre la estructura del texto o su forma de presentación. Mediante los lenguajes de marcas, con la utilización de las etiquetas, se puede hacer explícita información del documento, como por ejemplo su estructura, su contenido semántico o de cualquier otro tipo. 
                 En función del contenido de las etiquetas, y por tanto de la información que va a contener el lenguaje, los lenguajes de marcas se pueden clasificar en :
@@ -12,5 +12,32 @@
                 Lenguajes de procedimientos: Están orientados también a la presentación, pero las etiquetas contienen instrucciones que el programa deberá interpretar y ejecutar.
                 Lenguajes descriptivos o semánticos: Se centran en el contenido, estructurando el documento en partes, sin ocuparse de la representación.
             </texto>
-        
+        </subtema>
+        <subtema titulo="¿Ejemplos de lenguajes de marcas?">
+            <texto>
+                Entre los ejemplos de lenguajes de marcas están los siguientes:
+                RTF (Rich Text Format - Formato de Texto Enriquecido): Es un lenguaje de representación desarrollado por Microsoft en 1987. Representa 	documentos de texto con formato de presentación añadido.
+                TeX: Es un lenguaje de representación que representa fórmulas matemáticas complejas.
+                Wikitexto: Es un lenguaje de representación que permite la creación de páginas tipo Wiki.
+                HTML (Hypertext Markup Language - Lenguaje de Marcado de Hipertexto): Es un lenguaje de procedimientos 	cuyo objetivo es la creación de documentos con un formato visual interesante para compartirlo en Internet.
+                LaTeX: Es un lenguaje de procedimientos.Consiste en un sistema de  composición de textos, orientado a la creación de documentos 	escritos que presenten una alta calidad tipográfica, es decir, una cantidad considerable de complementos tipográficos del texto.
+                XML (eXtensible Markup Language - Lenguaje de Marcado Extensible): Es un lenguaje descriptivo que permite definir otros lenguajes de marcas. Es un  metalenguaje.
+            </texto>
+        </subtema>
+    </tema>
+    <tema titulo='eXtensible Markup language (XML)' capitulo="2">
+        <subtema titulo="Definición de XML">
+            <texto>
+                Como definimos en el apartado anterior, XML es un lenguaje descriptivo, es decir, por definición se centra en el contenido, estructurando el documento en partes, pero omite la representación.
+                XML (eXtensible Markup Language) es un meta-lenguaje que permite definir lenguajes de marcas desarrollado por el World Wide Web Consortium (W3C) utilizado para almacenar datos en forma legible. Proviene del lenguaje SGML y permite definir la gramática de lenguajes específicos para estructurar documentos grandes. 
+                XML es uno de los lenguajes utilizados en el diseño y texto de los sitios web. Es un lenguaje de marcado que define un conjunto de reglas para la codificación de documentos.
+                Sin embargo XML no es un lenguaje exclusivo para su aplicación en Internet, sino que se propone como un estándar para el intercambio de información estructurada entre diferentes plataformas. Se puede usar en bases de datos, editores de texto, hojas de cálculo y otras plataformas de aplicación de XML.
+                XML es una tecnología sencilla que tiene a su alrededor otras que la complementan y la hacen mucho más grande, con unas posibilidades mucho mayores. Tiene un papel muy importante en la actualidad ya que permite la compatibilidad entre sistemas para compartir la información de una manera segura, fiable y fácil.
+                XML es un lenguaje de lenguajes, un lenguaje que se utiliza para decir algo sobre otro lenguaje. Es un lenguaje que permite la organización y etiquetado de documentos. No es un lenguaje en sí mismo, sino un sistema que permite definir lenguajes conforme a las necesidades. Es extensible, es decir, se pueden añadir etiquetas una vez diseñado el documento.
+
+            </texto>
+        </subtema>  
+    </tema>
 </contenido>
+
+      
