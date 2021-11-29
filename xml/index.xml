@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="estilosContenido.xsl"?>
+
 <!DOCTYPE contenido SYSTEM "learningXML.dtd">
 <contenido>
-    <tema capitulo='1'>Lenguajes de marcas</tema>
-        <subtema capitulo='1a'>"¿Qué son los lenguajes de marcas?"</subtema>
+    <tema>Lenguajes de marcas</tema>
+        <subtema>"¿Qué son los lenguajes de marcas?"</subtema>
             <texto>
                 Los lenguajes de marcas o Markup Language son maneras de codificar documentos que incorporan etiquetas, marcas o anotaciones con información adicional sobre la estructura del texto o su forma de presentación. Mediante los lenguajes de marcas, con la utilización de las etiquetas, se puede hacer explícita información del documento, como por ejemplo su estructura, su contenido semántico o de cualquier otro tipo. 
                 En función del contenido de las etiquetas, y por tanto de la información que va a contener el lenguaje, los lenguajes de marcas se pueden clasificar en :
                 Lenguajes de presentación: Oculta las etiquetas y muestra sólo el contenido de las mismas al 	usuario, facilitando la lectura del documento.
                 Lenguajes de procedimientos: Están orientados también a la presentación, pero las etiquetas contienen instrucciones que el programa deberá interpretar y ejecutar.
                 Lenguajes descriptivos o semánticos: Se centran en el contenido, estructurando el documento en partes, sin ocuparse de la representación.
-            </texto>
-        <subtema capitulo='1b'>"Ejemplos de lenguajes de marcas"</subtema>
-            <texto>
-                Entre los ejemplos de lenguajes de marcas están los siguientes: 
-                RTF (Rich Text Format - Formato de Texto Enriquecido): Es un lenguaje de representación desarrollado por Microsoft en 1987. Representa 	documentos de texto con formato de presentación añadido. 
-                TeX: Es un lenguaje de representación que representa fórmulas matemáticas complejas. 
-                Wikitexto: Es un lenguaje de representación que permite la creación de páginas tipo Wiki. 
-                HTML (Hypertext Markup Language - Lenguaje de Marcado de Hipertexto): Es un lenguaje de procedimientos 	cuyo objetivo es la creación de documentos con un formato visual interesante para compartirlo en Internet. 
-                LaTeX: Es un lenguaje de procedimientos.Consiste en un sistema de  composición de textos, orientado a la creación de documentos 	escritos que presenten una alta calidad tipográfica, es decir, una cantidad considerable de complementos tipográficos del texto. 
-                XML (eXtensible Markup Language - Lenguaje de Marcado Extensible): Es un lenguaje descriptivo que permite definir otros lenguajes de marcas. Es un  metalenguaje.
             </texto>
         
 </contenido>
