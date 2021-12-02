@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="estilosContenido.xsl"?>
+<rss version="2.0">
+	<channel>
+		<title> 'Lenguajes de marcas' </title>
+		<link>http://www.finalpagenotpublishedyet.com/</link>
+		<description> Un portal web para aprender XML </description>
+        <lastBuildDate>Thu, 02 Dec 2021 00:01:00 +0000 </lastBuildDate>
+        <pubDate>Thu, 02 Dec 2021 00:01:00 +0000 </pubDate>
+        <ttl>1800</ttl>
+
+		<item>
+			<title>¿Qué son los lenguajes de marcas?</title>
+            <description> Conceptos definitorios de los lenguajes de marca </description>
+            <guid>http://www.finalpagenotpublishedyet.com/111</guid>
+            <pubDate>Thu, 02 Dec 2021 00:01:00 +0000 </pubDate>
+			<link>http://www.finalpagenotpublishedyet.com/</link>
+		</item>
+	</channel>
+</rss>
