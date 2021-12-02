@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!ELEMENT contenido (tema+)>
-<!ELEMENT tema (subtema+)>
-<!ATTLIST tema titulo CDATA #REQUIRED>
-<!ATTLIST tema capitulo CDATA #REQUIRED>
-<!ELEMENT subtema (texto)>
-<!ATTLIST subtema titulo CDATA #REQUIRED>
-<!ELEMENT texto (#PCDATA)>
