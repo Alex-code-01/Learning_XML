@@ -3,7 +3,7 @@
 
 <!DOCTYPE contenido SYSTEM "learningXML.dtd">
 <contenido>
-    <tema titulo='Lenguajes de marcas' capitulo="1">
+    <tema titulo='Lenguajes de marcas'>
         <subtema titulo="¿Qué son los lenguajes de marcas?">
             <texto>
                 Los lenguajes de marcas o Markup Language son maneras de codificar documentos que incorporan etiquetas, marcas o anotaciones con información adicional sobre la estructura del texto o su forma de presentación. Mediante los lenguajes de marcas, con la utilización de las etiquetas, se puede hacer explícita información del documento, como por ejemplo su estructura, su contenido semántico o de cualquier otro tipo. 
@@ -25,7 +25,7 @@
             </texto>
         </subtema>
     </tema>
-    <tema titulo='eXtensible Markup language (XML)' capitulo="2">
+    <tema titulo='eXtensible Markup language (XML)'>
         <subtema titulo="Definición de XML">
             <texto>
                 Como definimos en el apartado anterior, XML es un lenguaje descriptivo, es decir, por definición se centra en el contenido, estructurando el documento en partes, pero omite la representación.
