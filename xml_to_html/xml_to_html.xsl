@@ -15,13 +15,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             font-family: sans-serif; font-size: 14px; padding: 20px; background-color: #ffffff; text-align:justify
           }
           h1 {
-            font-family: 'Georgia','Times',serif; font-weight: normal;
+            font-family: 'Georgia','Times',serif; font-weight: normal; color: #0000FF;
           }
           h2 {
-            font-family: 'Georgia','Times',serif; font-weight: normal;
+            font-family: 'Georgia','Times',serif; font-weight: normal; font-style: italic;
           }
           h3 {
-            font-family: 'Georgia','Times',serif; font-weight: normal;
+            font-family: 'Georgia','Times',serif; font-weight: normal; text-decoration: underline;
           }
       </style>
     </head>
