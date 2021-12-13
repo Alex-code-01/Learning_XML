@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT contenido (tema+)>
+<!ATTLIST contenido
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT tema (subtema+)>
+<!ATTLIST tema
+  xmlns CDATA #FIXED ''
+  titulo CDATA #REQUIRED>
+
+<!ELEMENT subtema (texto)>
+<!ATTLIST subtema
+  xmlns CDATA #FIXED ''
+  titulo CDATA #REQUIRED>
+
+<!ELEMENT texto (#PCDATA)>
+<!ATTLIST texto
+  xmlns CDATA #FIXED ''>
